@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1658138284539-b04c52359d64?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+div{
+
+    /*Efeito Vidro*/
+    background-color: rgba(255, 255, 255, 0.109);
+    backdrop-filter:blur(5px);
+    /*Efeito Vidro*/
+
+    border-radius: 20px;
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+}

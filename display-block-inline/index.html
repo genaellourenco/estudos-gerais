@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Display Block e Inline</title>
+    <style>
+        body {
+            background-color: rgba(128, 128, 128, 0.338);
+        }
+
+        .d-inline {
+            display: inline;
+            background-color: rgb(133, 193, 193);
+            padding: 10px;
+            height: 100px;
+            /*Não Funciona*/
+            width: 100px;
+            /*Não Funciona*/
+        }
+
+        .d-block {
+            display: block;
+            background-color: rgb(42, 165, 61);
+            height: 100px;
+            width: 100px;
+            margin: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .d-inline-block {
+
+            display: inline-block;
+            background-color: crimson;
+            height: 100px;
+            width: 100px;
+            
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Display Inline</h1>
+    <hr>
+    <div class="d-inline">Display 1</div>
+    <div class="d-inline">Display 2</div>
+    <div class="d-inline">Display 3</div>
+
+    <h1>Display Block</h1>
+    <hr>
+    <div class="d-block">Display 1</div>
+    <div class="d-block">Display 2</div>
+    <div class="d-block">Display 3</div>
+
+    <h1>Display Inline - Block</h1>
+    <hr>
+    <div class="d-inline-block">Display 1</div>
+    <div class="d-inline-block">Display 2</div>
+    <div class="d-inline-block">Display 3</div>
+
+</body>
+</html>

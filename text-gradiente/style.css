@@ -1,0 +1,21 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    font-size: 30px;
+    background-color: #292727;
+    text-align: center;
+   
+}
+
+/* TEXTO GRADIENTE */
+
+.titulo{
+background-image: linear-gradient(to left,#ffffff, #2105f8);
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+}
